@@ -1,0 +1,33 @@
+
+.p1{
+    
+    margin: 50;
+
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: aqua;
+
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blueviolet;
+    outline-offset: 5px;
+
+
+
+}
+
+#p2{
+
+    margin: 50;
+
+    border: 5px  solid red;
+    border-radius: 10px;
+
+    outline: 5px dashed rebeccapurple;
+    outline-offset: 5px;
+
+
+
+}

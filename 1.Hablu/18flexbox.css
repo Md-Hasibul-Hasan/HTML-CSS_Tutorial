@@ -1,0 +1,17 @@
+.flexbox{
+    background-color: aqua;
+    font-size: 30;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexbox> div{
+    background-color: yellow;
+    margin: 5;
+    padding: 5;
+    width: 100;
+}

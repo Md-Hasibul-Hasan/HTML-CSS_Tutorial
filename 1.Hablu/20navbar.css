@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* header start*/
+
+
+nav{
+    height: 60px;
+    border: 2px solid rgb(0, 208, 255);
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.search{
+    margin-right: 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(59, 114, 109);
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.navbar, .dropdown1, .dropdown2{
+    list-style: none;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li a{
+    display: block;
+
+}
+
+.navbar li a:hover{
+    background-color: cyan;
+    color: black;
+}
+
+.navbar li{
+    position: relative;
+}
+
+.dropdown1{
+    position: absolute;
+    display: none;
+    background-color:wheat;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.navbar li:hover .dropdown1{
+    display: flex;
+    flex-direction: column;
+    width:"100%";
+    
+    
+}
+
+
+ .dropdown2{
+    position: absolute;
+    display: none;
+    background-color: rgb(203, 188, 235);
+    text-align: center;
+    padding: 0px;
+
+}
+
+.dropdown1 li:hover .dropdown2{
+    display: flex;
+    flex-direction: column;
+    top: 20;
+    right: 100%;
+     
+}
+
+.dropdown1 li a{
+    margin: 10px ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* form start*/
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 80px;
+    margin-top: 70px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 black;
+
+}
+
+.form1 input{
+    padding: 5px 50px;
+    border-color: aqua;
+    border-radius: 50px;
+}
+
+.form1 .btn{
+    background-color: aqua;
+    font-weight: bold;
+
+
+}
+
+
+
+/* footer start*/
+footer{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.name {
+    font-weight: bold;
+    font-size: 40;
+    position: relative;
+    top: 20;
+
+
+}
+
+.text p{
+    width: 600;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top: 30;
+
+
+
+}
+
+.icon i{
+    font-size: 45;
+    position: relative;
+    top: 40;
+    padding: 10;
+
+}
+
+.copy{
+    position: relative;
+    top: 60;
+    background-color: rgb(111, 106, 110);
+    font-size: 20;
+    height: 30;
+    line-height: 30px;
+}
+
+

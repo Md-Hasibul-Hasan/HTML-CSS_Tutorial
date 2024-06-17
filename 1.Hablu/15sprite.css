@@ -1,0 +1,13 @@
+.img{
+    width: 200px;
+    height: 200px;
+    background-image: url(imgage.png);
+    background-position: -190 -0;
+    background-repeat: no-repeat;
+    transition: 1s;
+
+}
+
+.img:hover{
+    background-position: 0 0;
+}

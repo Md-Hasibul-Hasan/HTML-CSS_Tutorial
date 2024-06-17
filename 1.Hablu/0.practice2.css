@@ -1,0 +1,94 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 30 ;
+
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 60px 100px 200px 100px 200px 60px;
+    grid-template-columns: 200px 200px 200px 150px;
+}
+.div1{
+    background-color: red;
+    grid-column: 1/-1;
+
+    
+}
+.div2{
+    background-color: rgb(0, 255, 42);
+    
+}
+
+.div3{
+    background-color: rgb(55, 0, 255);
+}
+
+.div4{
+    background-color: rgb(0, 217, 255);
+}
+
+.div5{
+    background-color: rgb(166, 22, 132);
+    grid-row: 2/4;
+    grid-column: 4/5;
+   
+}
+
+.div6{
+    background-color: rgb(242, 255, 0);
+    grid-column: 1/4;
+   
+}
+
+.div7{
+    background-color: rgb(255, 0, 115);
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+.div8{
+    background-color: rgb(106, 255, 0);
+    grid-column: 2/3;
+}
+.div9{
+    background-color: rgb(255, 0, 115);
+   
+}
+.div10{
+    background-color: rgb(204, 255, 0);
+    
+}
+.div11{
+    background-color: rgb(255, 94, 0);
+    grid-column: 2/5;
+}
+.div12{
+    background-color: rgb(106, 0, 255);
+    grid-column: 1/-1;
+    
+} */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 90%;
+    border: 1px solid red;
+    margin:0px auto;
+    text-align: center;
+    /* color: white; */
+    display: grid;
+    grid-gap: 10px;
+
+}

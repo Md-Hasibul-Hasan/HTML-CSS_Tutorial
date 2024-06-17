@@ -1,0 +1,17 @@
+h1{
+
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -5px -5px 5px blue ;
+}
+
+div{
+
+    background-color: aqua;
+    width: 30%;
+    height: 900px;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+
+
+}

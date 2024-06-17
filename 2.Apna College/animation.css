@@ -1,0 +1,42 @@
+div{
+    
+    height: 100;
+    width: 100; 
+    border-radius: 50%;
+    border: 10px solid blue; 
+    border-top: 10px solid rgb(226, 18, 18);
+    
+    position: relative;
+    top: 100;
+    left: 200;
+
+    animation: spin 1s ease-in 0s infinite normal;
+ 
+}
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+/* @keyframes name{
+    from{background-color: cyan;
+    left: 0px;}
+    to{background-color: red;
+    left: 100px;}
+} */
+
+
+div:hover{
+    /* background-color: red; */
+    /* transition: all 1s ease-in 1s; */
+    /* animation:name 3s ease-in 0s infinite alternate; */
+    /* transform: rotate(720deg); */
+    /* transform: skew(30deg); */
+    /* transform: scaleX(2); */
+    /* transform: translate(90px,90px); */
+    
+    
+}
+/* div:active{
+    /* background-color: blue; 
+} */
